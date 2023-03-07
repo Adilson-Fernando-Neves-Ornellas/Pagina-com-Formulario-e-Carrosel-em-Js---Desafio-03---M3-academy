@@ -1,0 +1,31 @@
+{
+  "name": "challenge-tourist-attractions-adilson-fernando-neves-ornellas",
+  "version": "1.0.0",
+  "description": "Desafio03-AdilsonFernandoNevesOrnellas",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@gitea.ecommercetools.com.br:22022/AdilsonFernandoNevesOrnellas/challenge-tourist-attractions-Adilson-Fernando-Neves-Ornellas.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.20.2",
+    "@babel/preset-env": "^7.20.2",
+    "babelify": "^10.0.0",
+    "browserify": "^17.0.0",
+    "gulp": "^4.0.2",
+    "gulp-changed": "^4.0.3",
+    "gulp-connect": "^5.7.0",
+    "gulp-imagemin": "^8.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-webp": "^4.0.1",
+    "sass": "^1.56.1",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0"
+  }
+}

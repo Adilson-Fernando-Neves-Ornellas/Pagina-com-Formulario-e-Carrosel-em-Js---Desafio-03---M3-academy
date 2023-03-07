@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Desafio 03 - Adilson Fernando Neves Ornellas</title>
+        <link rel="stylesheet" href="main.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    </head>
+    <body>
+        <main>
+            <!--Parte01-Formulario Pontos Turisticos-->
+            <section class="parte01-conteiner">
+
+                <h1 class="parte01-conteiner-titulo">Adicionar um Ponto Turístico</h1>
+
+                <form class="parte01-conteiner-form">
+
+                    <div class="parte01-form-entrada">
+
+                        <div class="parte01-entrada-imagem">
+
+                            <label  class="parte01-imagem-label" for="imagemForm" tabindex="0"></label>
+
+                            <input class="parte01-imagem-input" type="file" name="imagemForm" id="imagemForm" accept="image/*" required>
+
+                        </div>
+
+                        <div class="parte01-entrada-titulo-e-descriçao">
+
+                            <div class="parte01-entrada-titulo">
+
+                                <input class="parte01-titulo-input" type="text" name="titulo-form" id="titulo-form" placeholder="Titulo" required >
+
+                            </div>
+
+                            <div class="parte01-entrada-descrição">
+
+                                <textarea class="parte01-descrição-texto" name="descriçãoform" id="descriçãoform" cols="30" rows="10" placeholder="Descrição" required ></textarea>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <button class="parte01-conteiner-button" type="submit">Adicionar</button>
+
+                </form>
+            </section>
+                <!-- 2° Parte - Montar a lista de cards  -->
+            <section class="parte02-conteiner">
+
+                <h1 class="parte02-conteiner-titulo">Pontos Turísticos</h1>
+
+                <ul class="parte02-conteiner-list">
+                </ul>
+
+            </section>
+        </main>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <script src="bundle.js"></script>
+    </body>
+</html>
+
